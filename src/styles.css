@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: ivory;
+  font-family: sans-serif;
+}
+
+header {
+  padding: 1em;
+  background-color: steelblue;
+  display: flex;
+  gap: 2em;
+}
+
+#header-img {
+  justify-self: flex-start;
+  width: 150px;
+}
+
+h1 {
+  margin: 0;
+  align-self: flex-start;
+}
+
+main {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+button {
+  margin-top: 1.5em;
+  border: 0;
+  border-radius: 5px;
+  background-color:cornflowerblue;
+  padding: 1em 1.5em;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
